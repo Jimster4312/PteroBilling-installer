@@ -20,10 +20,10 @@ set -e
 
 
 S_VERSION="1.3"
-PUBLIC_REPO="https://github.com/MinePlay85/PteroBilling-installer" #Mark repo of the installer
+PUBLIC_REPO="https://github.com/Jimster4312/PteroBilling-installer" #Mark repo of the installer
 SPONSOR="https://paypal.me/alaisterleung" 
-INSTALL_LINK="https://raw.githubusercontent.com/MinePlay85/pterobilling-installer/master/install-pterobilling.sh"
-#INSTALLUPDATE_LINK="https://raw.githubusercontent.com/MinePlay85/pterobilling-installer/master/install-update.sh"
+INSTALL_LINK="https://raw.githubusercontent.com/Jimtser4312/pterobilling-installer/master/install-pterobilling.sh"
+#INSTALLUPDATE_LINK="https://raw.githubusercontent.com/Jimtser4312/pterobilling-installer/master/install-update.sh"
 
 # exit with error if user is not root
 if [[ $EUID -ne 0 ]]; then
