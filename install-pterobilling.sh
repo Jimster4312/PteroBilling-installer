@@ -115,7 +115,7 @@ GITHUB_SOURCE="master"
 # Download URL
 #BILLING_DL_URL="https://github.com/pterobilling/pterobilling/releases/lastest/download/pterobilling.tar.gz"
 BASE_URL="https://raw.githubusercontent.com/MinePlay85/PteroBilling-Installer/master" #Mark link when the repo was created
-GIT_CLONE_URL="https://github.com/pterobilling/pterobilling"
+GIT_CLONE_URL="https://github.com/azhkhn/pterobilling"
 
 # Check Version #
 get_latest_version() {
@@ -126,7 +126,7 @@ get_latest_version() {
 
 # version of pterobilling
 echo "* Getting release information"
-PTEROBILLING_VERSION="$(get_latest_version "pterobilling/pterobilling")"
+PTEROBILLING_VERSION="$(get_latest_version "azhkhn/pterobilling")"
 
 # function lib #
 array_contains_element() {
